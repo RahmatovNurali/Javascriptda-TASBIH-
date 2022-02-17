@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasbih yasash</title>
+</head>
+<body>
+
+    <div class="tasbehQolipi">
+        <input type="text" class="ekran " value="0">
+        <button class="tugma"></button>
+
+        <button class="uchirish"></button>
+    </div>
+    <script type="text/javascript">
+    document.querySelector('.tugma').addEventListener('click', function(){
+      var ekran =  document.querySelector('.ekran');
+
+      ekran.value = parseInt(ekran.value) + 1;
+    });
+
+
+    document.querySelector('.uchirish').addEventListener('click',function(){
+        document.querySelector('.ekran').value = 0;
+    })
+    </script>
+</body>
+</html>

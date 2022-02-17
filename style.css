@@ -1,0 +1,44 @@
+.tasbehQolipi{
+    width: 130px;
+    height: 155px;
+    background-color: coral;
+    border-color: chocolate;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    border-radius: 20%;
+    border: 1px solid chocolate;
+}
+
+.ekran{
+    position: absolute;
+    top: 10%;
+    left: 19%;
+    width: 55%;
+    height: 30px;
+    caret-color: white;
+    border-radius: 9%;
+    border: 1px solid;
+    text-align: center;
+    font-size: 34px;
+}
+
+.tugma{
+    position: absolute;
+    top: 42%;
+    left: 33%;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.uchirish{
+    position: absolute;
+    top: 75%;
+    left: 38.8%;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background-color: burlywood;
+}
